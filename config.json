@@ -1,0 +1,8 @@
+{
+  "images": [".jpg", ".jpeg", ".png"],
+  "archives": [".zip", ".rar", ".7z", ".gz", ".tar", ".xz", ".tgz", ".bz2"],
+  "books": [".pdf", ".epub", ".mobi", ".azw3"],
+  "scripts": [".run", ".sh", ".bash", ".bat"],
+  "isos": [".iso"],
+  "deb": [".deb"]
+}
