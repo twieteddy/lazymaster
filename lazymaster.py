@@ -1,9 +1,11 @@
 from os import listdir, path, rename, mkdir
 import json
 
+
 def main():
     home_directory = path.expanduser("~")
     download_directory = path.join(home_directory, "Downloads")
+    files_sorted = 0
     translation = {}
 
     # Read json config file and add to translation (extension -> directory)
@@ -38,6 +40,10 @@ def main():
                 mkdir(subdirectory)
             new_file = path.join(subdirectory, basename)
             rename(src=file, dst=new_file)
+            files_sorted += 1
+
+    print(files_sorted, "sorted!")
+
 
 if __name__ == "__main__":
     main()

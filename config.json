@@ -1,5 +1,6 @@
 {
-  "images": [".jpg", ".jpeg", ".png"],
+  "images": [".jpg", ".jpeg", ".png", ".gif"],
+  "videos": [".wmv", ".mp4"],
   "archives": [".zip", ".rar", ".7z", ".gz", ".tar", ".xz", ".tgz", ".bz2"],
   "books": [".pdf", ".epub", ".mobi", ".azw3"],
   "scripts": [".run", ".sh", ".bash", ".bat"],
